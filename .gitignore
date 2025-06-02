@@ -24,6 +24,7 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
+env310/
 
 # IDE
 .idea/
