@@ -24,7 +24,6 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
-env310/
 
 # IDE
 .idea/
@@ -34,4 +33,10 @@ env310/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Project specific
+*.h5
+*.pkl
+*.model
+*.log 

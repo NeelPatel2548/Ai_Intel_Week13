@@ -1,42 +1,66 @@
 # InspectorsAlly: Anomaly Detector
 
-A Streamlit-based web application that uses machine learning to detect defects in product images.
+A Streamlit-based web application for detecting defects in products using computer vision and machine learning.
 
 ## Features
 
-- Upload and analyze product images
-- Real-time defect detection
-- Confidence score for predictions
-- User-friendly interface
+- **Image Upload**: Upload product images for defect detection
+- **Live Camera**: Real-time defect detection using camera feed
+- **Image Cropping**: Crop images to focus on specific areas
+- **Real-time Analysis**: Instant prediction results with confidence scores
+- **Responsive UI**: Clean and intuitive user interface
+
+## Requirements
+
+- Python 3.7+
+- Streamlit
+- Keras
+- NumPy
+- Pillow
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/NeelPatel2548/toothbrush_Week13.git
-cd toothbrush_Week13
+git clone [repository-url]
+cd InspectorsAlly
 ```
 
-2. Install the required packages:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
+3. Place your trained model file (`keras_model.h5`) in the project directory
+
 ## Usage
 
-Run the Streamlit app:
+Run the application:
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
-## Model
+## Features in Detail
 
-This application uses a TensorFlow model trained on Teachable Machine to detect defects in product images. The model is stored in `keras_model.h5`.
+### Image Upload
+- Supports JPG, JPEG, and PNG formats
+- Automatic image resizing and optimization
+- Instant defect detection
 
-## Requirements
+### Live Camera
+- Real-time camera feed
+- Image cropping capabilities
+- Instant analysis of captured frames
 
-- Python 3.x
-- Streamlit
-- TensorFlow
-- NumPy
-- Pillow 
+### Analysis Results
+- Defect classification (Defective/Non-Defective)
+- Confidence score display
+- Visual preview of analyzed images
+
+## License
+
+[Your License Here]
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. 
